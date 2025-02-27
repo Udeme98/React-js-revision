@@ -1,14 +1,13 @@
+import Footer from "./Footer";
+import Header from "./Header";
+import MainComponent from "./MainComponent";
+
 const Intro = () => {
   return (
     <div>
-      <img src="/src/assets/react.svg" />
-      <h1>Fun facts about React</h1>
-      <ul>
-        <li>Was first released in 2013</li>
-        <li>Was created Jordan Walke</li>
-        <li>Has well over 100k stars in Github </li>
-        <li>Is maintain by Facebook</li>
-      </ul>
+      <Header />
+      <MainComponent />
+      <Footer />
     </div>
   );
 };
