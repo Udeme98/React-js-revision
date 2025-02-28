@@ -1,9 +1,11 @@
-import Intro from "./Intro/Intro";
+import Testing from "./Testing";
 
 const App = () => {
   return (
     <div>
-      <Intro />
+      {/* <Intro /> */}
+      <Testing />
+      <h2>Hello</h2>
     </div>
   );
 };
