@@ -8,3 +8,4 @@ This repository conntains my revision of the React framework.
 2. JSX
 3. React components
 4. Props
+5. States
