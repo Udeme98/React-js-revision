@@ -3,6 +3,8 @@
   padding: 0;
   margin: 0;
 }
+
+/* Intro */
 .nav {
   display: flex;
   justify-content: space-between;
@@ -32,5 +34,23 @@
   padding: 20px;
   background-color: gray;
 }
-.main-heading {
+
+/* Data Driven */
+.data-nav{
+  height: 80px;
+  box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  
+}
+.nav-logo{
+  height: 100%;  
+}
+.hero{
+  display: flex;
+  justify-content: center;
+padding-top: 10px;
+
+}
+.hero-image{
+  max-width: 300px; 
 }

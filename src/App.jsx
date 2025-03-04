@@ -1,3 +1,4 @@
+import Data from "./Data-Driven-React";
 import Intro from "./Intro";
 import Testing from "./Testing";
 
@@ -5,7 +6,8 @@ const App = () => {
   return (
     <div>
       {/* <Testing /> */}
-      <Intro />
+      {/* <Intro /> */}
+      <Data/>
     </div>
   );
 };
