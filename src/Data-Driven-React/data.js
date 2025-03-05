@@ -14,7 +14,7 @@ const data = [
   {
     id: 3,
     img: "fair-lady.jpg",
-    title: "This is a fair ladyr",
+    title: "This is a fair lady",
     price: 200,
   },
 ];

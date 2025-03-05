@@ -6,15 +6,13 @@ import data from "./data";
 
 const Data = () => {
   const cards = data.map((card) => {
-    return (
-      <Card id={card.id} img={card.img} title={card.title} price={card.price} />
-    );
+    return <Card key={card.id} card={card} />;
   });
 
   return (
     <div>
       <Navbar />
-      {/* <Hero/> */}
+      <Hero />
       <div className="cards">{cards}</div>
     </div>
   );
