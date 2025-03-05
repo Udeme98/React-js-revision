@@ -1,5 +1,6 @@
 import Data from "./Data-Driven-React";
 import Intro from "./Intro";
+import Meme from "./Meme generator";
 import Testing from "./Testing";
 
 const App = () => {
@@ -7,7 +8,8 @@ const App = () => {
     <div>
       {/* <Testing /> */}
       {/* <Intro /> */}
-      <Data/>
+      {/* <Data /> */}
+      <Meme />
     </div>
   );
 };
