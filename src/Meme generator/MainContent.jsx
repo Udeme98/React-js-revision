@@ -2,6 +2,14 @@ import React from "react";
 import memesData from "./memesData";
 
 const MainContent = () => {
+  const memeFunc = (e) => {
+    e.preventDefault();
+
+    const memeArray = memesData.data.memes;
+    const randomNumber = Math.floor(Math.random() * memeArray.length);
+    console.log(memeArray[randomNumber].name);
+  };
+
   return (
     <main>
       <form className="form">
@@ -9,10 +17,7 @@ const MainContent = () => {
           <input type="text" className="meme-input" />
           <input type="text" className="meme-input" />
         </section>
-        <button
-          onClick={() => console.log("Button clicked")}
-          className="meme-btn"
-        >
+        <button type="button" onClick={memeFunc} className="meme-btn">
           Send
         </button>
       </form>
