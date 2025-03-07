@@ -9,3 +9,4 @@ This repository conntains my revision of the React framework.
 3. React components
 4. Props
 5. Mapping data
+6. State

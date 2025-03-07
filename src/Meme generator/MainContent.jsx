@@ -7,7 +7,7 @@ const MainContent = () => {
 
     const memeArray = memesData.data.memes;
     const randomNumber = Math.floor(Math.random() * memeArray.length);
-    console.log(memeArray[randomNumber].name);
+    console.log(memeArray[randomNumber].box);
   };
 
   return (
