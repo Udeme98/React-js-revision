@@ -8,7 +8,7 @@ const Meme = () => {
     <div>
       <Navbar />
       <MainContent />
-      <Count />
+      {/* <Count /> */}
     </div>
   );
 };

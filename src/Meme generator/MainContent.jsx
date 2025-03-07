@@ -1,11 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import memesData from "./memesData";
 
 const MainContent = () => {
+  const [meme, setMeme] = useState({
+    topText: "",
+    bottomText: "",
+  });
+  const [allMemes, setAllMemes] = useState(memesData);
+
   const memeFunc = (e) => {
     e.preventDefault();
 
-    const memeArray = memesData.data.memes;
+    const memeArray = allMemes.data.memes;
     const randomNumber = Math.floor(Math.random() * memeArray.length);
     console.log(memeArray[randomNumber].box);
   };
